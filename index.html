@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+   <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" contect="maryam-khan">
+      <meta name="description" content="this page contains all the things i am creating as i learn html">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>learning html</title>
+      <link rel="icon" href="icons8-html5-100.png">
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <script src="./index.js"></script>
+     
+   </head>
+
+ <body id="top">
+
+    <br>
+    <br>
+
+    <header>
+
+       <section> 
+        <h2>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            navigatons;
+        </h2>
+
+
+        <nav> <!--nav for all links shortcut-->
+
+            <p>
+                <a href="#html markups">html markups</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="#html elements">html elements and their uses</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="#start">start of html article</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="#req-form">required form</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="#opt-form">optional form</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="#bottom">bottom of the page</a>
+            </p>
+
+         </nav>
+        </section>
+
+     <br>
+     <br>
+     <br>
+
+     <section>
+     <h1>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        forms;
+     </h1>
+
+    <div class="form" id="req-form"> <!--div for required form-->
+
+            <fieldset class="field-set">
+
+                <legend class="legend">
+                    personal information
+                </legend>
+
+               <form action="https://google.com" method="post">
+
+                <p> <label for="fname"> first name; </label> <br>
+                <input type="text" id="fname" name="fname" required> <br>
+
+                <label for="lname">last name;</label> <br>
+                <input type="text" name="lname" id="lname"required> </p> <hr>
+
+                <p> gender; </p>
+
+                <p><label for="male">male</label>
+                <input type="radio" id="male" name="gender" value="male" required> 
+
+                <label for="female">female</label>
+                <input type="radio" id="female" name="gender" value="female" required> </p> <hr>
+
+                <label for="email">email</label>
+                <input type="email" name="email" value="email" id="email" required> <hr>
+
+                <label for="password">set a password</label>
+                <input type="password" name="password" value="password" id="password" required> <hr>
+
+                <label for="date-of-birth">date of birth</label>
+                <input type="date" id="date-of-birth" name="date" required> <hr> <br>
+
+                <label for="file">upload a sample of html work</label>
+                <input type="file" id="file" name="file" value="file" required> <br> <hr> <br> 
+
+                <button type="submit"> submit </button> <!--submit button using button tag-->
+                <button type="reset"> reset </button>
+
+               </form>
+
+            </fieldset>
+
+    </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <section>
+    <div class="form" id="opt-form"> <!--div for optional form-->
+
+        <fieldset class="field-set">
+
+            <legend class="legend">optional</legend>
+
+            <form action="https://google.com" method="get">
+
+                <label for="review">leave a review</label> <br>
+                <textarea name="review" id="review" cols="30" rows="3"></textarea> <hr>
+                
+                <label for="continent">home continent</label> <br>
+                <select name="continent" id="continent">
+                    <option value="continent">asia</option>
+                    <option value="continent">europe</option>
+                    <option value="continent">australia</option>
+                    <option value="continent">africa</option>
+                    <option value="continent">antarctica</option>
+                    <option value="continent">south america</option>
+                    <option value="continent">north america</option>
+                </select> <hr>
+
+                <p>choose a pet if you have any</p>
+
+                <label for="cat">cats</label>
+                <input type="checkbox" id="cat" name="cat" value="pets"> <br>
+
+                <label for="dog">dogs</label>
+                <input type="checkbox" name="dog" id="dog" value="pets"> <br>
+
+                <label for="fish">fishes</label>
+                <input type="checkbox" name="fish" id="fish" value="pets"> <br>
+
+                <label for="bird">birds</label>
+                <input type="checkbox" name="bird" id="bird" value="pets"> <br>
+
+                <label for="reptile">reptiles</label>
+                <input type="checkbox" name="reptile" id="reptile" value="pets"> <br>
+
+                <label for="hamster">hamsters</label>
+                <input type="checkbox" name="hamster" id="hamster" value="pets"> <br>
+
+                <label for="insects">insects</label>
+                <input type="checkbox" name="insects" id="insects" value="pets"> <hr> <br>
+
+                <label for="submit">submit here </label> <br>
+                <input type="image" src="icons8-html5-100.png" alt="html 5 icon"> <!--submit button using
+                input tag-->
+
+            </form>
+
+        </fieldset>
+
+    </div>
+    </section>
+
+    </header>
+
+    <br>
+    <br>
+    <br>
+
+
+    <main>
+
+    <article>
+    <h1 id="start">HTML</h1> <!--start of article-->
+
+    <P><abbr title="hypertext markup language">html</abbr>is a presentation language interpreted by our browser 
+        which is used to give structure to a webpage. it is the most basic step to learn or start web 
+        development, it defines the meaning of a webpage. the current version of html is <ins>html 5</ins> 
+        which has replaced <del>html 4</del> due to which users can access many new html 5 elements and markups
+        but html 5 does not support attributes which can be used to design or for presentation which is 
+        commonly done from css. <strong>HTML</strong> stands for <em>hypertext
+        markup language </em> from which;
+    </P>
+
+    <p><q>hypertext</q> refers to the links used to connect webpages together within a single or multiple
+    website.</p>
+
+    <p>and<q>markups</q>are used to annotate text, images and other content for display in a browser which is 
+    done by using special elements such as; </p>
+
+    <ul> 
+       <li> &lt;header&gt;, </li>
+       <li> &lt;main&gt;, </li> 
+       <li> &lt;footer&gt; etc. </li>
+    </ul>
+
+    <p>These elements can also have <i>attributes</i> with them. attributes always contain some kind of 
+    <b> value </b> with them and are written in the following format;</p>
+
+    <p id="attribute-structure"> attribute name="attribute value"</p>
+    
+    <h2 id="html markups">types of html markups</h2>
+
+    <p>html markups can be divided into two catagories</p>
+    <ol>
+        <li>structural markups</li>
+        <li>semantic markups</li>
+    </ol>
+
+    <h3>1-structural markups</h3>
+
+    <p>html uses these markups to give structure to the webpage each section of the page for example a new 
+       para or a new heading even a subheading is enclosed in a greater than and a less than symbol &lt;p&gt;
+       called <b>tabs</b> like so and then some kind of text is written inside it (the tabs along with the
+       text inside it is together known as an element). structural markups effect how the content is 
+       displayed in a webpage.
+    </p>
+
+    <h3>2-semantic markups</h3>
+
+    <p> these markups are used to help the screen reader and the server and they mostly don't have any 
+        effect on the content displayed within a webpage. the latest version of html is html 5. html 5
+        released some new elements and semantic markups like;
+     <dl>
+         <dt>
+            1. &lt;strong&gt; 
+         </dt>
+          <dd>
+             used to identify that the text inside this tag has great value also appearance wise it bolds
+             the text inside it.
+         </dd>
+         <dt> 
+             2. &lt;emphasis&gt; 
+         </dt> 
+         <dd>
+             used to emphasize an important piece of information also appearance wise it makes the text inside
+             the tag itallic.
+         </dd>
+     </dl>
+    </p>
+    <br>
+    <hr>
+    </article>
+
+    <br>
+    <br>
+
+    <article>
+    <h1 id="html elements">some basic html elements</h1> <!--table start-->
+
+    <br>
+    <br>
+
+    <table>
+
+        <thead>
+            <th>S.no.</th>
+            <th>elements</th>
+            <th>attributes</th>
+            <th>uses</th>
+            <th>type of element</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                   &lt;h1,2,3--,6&gt;
+                </td>
+                <td rowspan="4">
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; none
+                </td>
+                <td>
+                    to create headings and subheadings.
+                </td>
+                <td rowspan="2">
+                    block level
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    &lt;p&gt;
+                </td>
+                <td>
+                    to create a new paragraph.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    &lt;b&gt;
+                </td>
+                <td>
+                    to bold the tag.
+                </td>
+                <td rowspan="2">
+                    inline 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    4
+                </td>
+                <td>
+                    &lt;i&gt;
+                </td>
+                <td>
+                    makes the text italic
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    5
+                </td>
+                <td>
+                    &lt;a&gt;
+                </td>
+                <td>
+                    href, target etc. 
+                </td>
+                <td>
+                    to link different pages and sites in a single or multiple webpages.
+                </td>
+                <td rowspan="8">
+                    block level
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    6
+                </td>
+                <td>
+                    &lt;img&gt;
+                </td>
+                <td>
+                    src, alt, title, align, width, height etc.
+                </td>
+                <td>
+                    to link images to your page.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    7
+                </td>
+                <td>
+                    &lt;table&gt;
+                </td>
+                <td>
+                    border, cell-padding etc.
+                </td>
+                <td>
+                    to catagorize the information in a grid format.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    8
+                </td>
+                <td>
+                    &lt;form&gt;
+                </td>
+                <td>
+                   action, method etc.
+                </td>
+                <td>
+                    to create a form.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    9
+                </td>
+                <td>
+                    &lt;input&gt;
+                </td>
+                <td>
+                    type, size, length etc.
+                </td>
+                <td>
+                    to collect information in the form from the screen reader.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    10
+                </td>
+                <td>
+                    &lt;ol&gt;
+                </td>
+                <td rowspan="3">
+                    &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; none
+                </td>
+                <td rowspan="3">
+                    to create numbered, non-numbered and definition lists.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    11
+                </td>
+                <td>
+                    &lt;ul&gt;
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    12
+                </td>
+                <td>
+                    &lt;dl&gt;
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="5">
+                    there are many more elements used in html, these were the examples of only a few of them.
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+    </article>
+
+    </main>
+
+
+    <footer>
+
+        <section>
+            <a href="#top" id="bottom">back to top</a>
+        </section>
+
+    </footer>
+
+
+ </body>
+</html>    
